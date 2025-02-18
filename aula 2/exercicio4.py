@@ -1,4 +1,4 @@
-trabalha_por_hora = int(input("Digite o valor da hora trabalhada: "))
+trabalha_por_hora = float(input("Digite o valor da hora trabalhada: "))
 horas_trabalhadas = int(input("Digite o numero de horas trabalhadas no mes: "))
 salario_bruto = trabalha_por_hora * horas_trabalhadas
 IR = salario_bruto * 0.11
