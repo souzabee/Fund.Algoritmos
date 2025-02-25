@@ -22,7 +22,7 @@ if latas_necessarias <= 1:
 if 1 < latas_necessarias <= 2:
     latas2 = latas - 2
     custo_total1 = latas2 * 2
-    print(f"Quantidade de latas de tinta: {latas_necessarias:.1f}")
+    print(f"Quantidade de latas de tinta: {latas_necessarias:.0f}")
     print(f"Custo total: {custo_total1:.0f}")
     
 
